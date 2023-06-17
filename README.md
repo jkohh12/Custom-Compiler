@@ -77,11 +77,11 @@ What would be white spaces in your language: White spaces are ignored in this la
 
 Was run/tested on ssh (bolt)
 
-**How To Compile**
-    1. run the command "make"
-    2. *(If also running on bolt server)* make sure to run "chmod 777 mil_run", this will allow the server to execute mil_run
-    3. ./parser ../programs/*any of the programs* > input.mil
-    4. mil_run input.mil
+**How To Compile**  <br />
+    1. run the command "make"  <br /> 
+    2. *(If also running on bolt server)* make sure to run "chmod 777 mil_run", this will allow the server to execute mil_run  <br />
+    3. ./parser ../programs/*any of the programs* > input.mil  <br />
+    4. mil_run input.mil <br />
 
 If the user wishes to try out their own code, simply create a new .pan file in their desired directory and put that file after "./parser" followed by "> input.mil"
 
