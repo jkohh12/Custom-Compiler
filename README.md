@@ -1,4 +1,4 @@
-# cs152
+# Custom Compiler
 **Name**: Panda
 
 **Extension**: .pan
@@ -75,5 +75,14 @@ What would be white spaces in your language: White spaces are ignored in this la
 | identifier (e.g "hello", "hello_WORLD", "asd223") | IDENT XXXX |
 | number (e.g "12", "123") | NUMBER XXXX |
 
+Was run/tested on ssh (bolt)
+
+**How To Compile**
+    1. run the command "make"
+    2. *(If also running on bolt server)* make sure to run "chmod 777 mil_run", this will allow the server to execute mil_run
+    3. ./parser ../programs/*any of the programs* > input.mil
+    4. mil_run input.mil
+
+If the user wishes to try out their own code, simply create a new .pan file in their desired directory and put that file after "./parser" followed by "> input.mil"
 
 
